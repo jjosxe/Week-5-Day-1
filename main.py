@@ -1,5 +1,6 @@
 ##############################################################################################################
 # what are tuples?
+
 # exactly the same thing as an array only it is immutable, once you define the tuple,
 #you cannot change it or modify it
 #you define a tuple with () instead of [] like you would in lists
@@ -7,17 +8,18 @@
 #example
 coordinates = (4, 5)
 # get the first element in the above tuple
-# print(coordinates[1])
+print(coordinates[0])
 # lets make this a multidimensional array
 coordindates2 = [(4, 5), (6, 7), (80, 34)]
+print(coordindates2[1][1])
 #get the second element of the second item in coordinates2
 
 # we use parentheses not [] in tuples
 my_tuple1 = (1, 2, 3, 4)
-
+print(my_tuple1[1])
 # get the second item in the tuple1 above
 my_tuple = (1, 2, (10, 20), 4)
-
+print(my_tuple[2][1])
 # get the second item in the 3rd item above
 #hint multidimensional array thinking
 
